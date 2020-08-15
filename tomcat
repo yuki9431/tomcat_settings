@@ -1,0 +1,11 @@
+/opt/tomcat/logs/localhost_access_log.txt
+/opt/tomcat/logs/catalina.log
+/opt/tomcat/logs/catalina.out {
+    copytruncate
+    daily
+    rotate 14
+    compress
+    missingok
+    notifempty
+    dateext
+}
